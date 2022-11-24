@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+    background-repeat: no-repeat;
+    
+    
+    background-image: url("background_img.jpg");
+    background-size: cover;
+}
+.container{
+    width: 30%;
+    height: 70%;
+    box-shadow: 1px 1px 5px;
+    background-color: black;
+    padding: 0.5rem;
+}
+.container input{
+    width: 100%;
+    height: 25%;
+    border: 25px;
+    font-size: 2rem;
+    color: rgb(70, 66, 66);
+    background-color: yellow;
+}
+.container .keys{
+    width: 100%;
+    height: 7.5%;
+}
+.container .keys button{
+    width: 100%;
+    height: 4.2rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    color: rgb(70, 66, 66);
+    border-radius: 2rem;
+}
+.container .keys button:hover{
+    background-color: rgb(228, 220, 220);
+}
+.container .keys .r1 .operatormod {
+    background-color:gold;
+}
+
+.container .keys .r2 .operatormultiply {
+    background-color: skyblue;
+}
+
+.container .keys .r3 .operatorminus {
+    background-color: green;
+}
+
+.container .keys .r4 .operatorplus {
+    background-color:cyan;
+}
+
+.container .keys .r5 .operatorequals {
+    background-color: red;
+}
+
+.container .keys .r1 .operatormod:hover
+{
+    background-color: yellow;
+}
+
+.container .keys .r2 .operatormultiply:hover
+{
+    background-color: yellow;
+}
+
+.container .keys .r3 .operatorminus:hover
+{
+    background-color: yellow;
+}
+
+.container .keys .r4 .operatorplus:hover
+{
+    background-color: yellow;
+}
+
+.container .keys .r5 .operatorequals:hover
+{
+    background-color: yellow;
+}
