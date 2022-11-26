@@ -1,4 +1,4 @@
-# OIBSIP_Level-2_Task-1
+# oibsip_taskno.1
 The details are as follows:
 Task-The task was to create an interactive calculator using html,css and javascript.
 Languages used-HTML,CSS and Javascript.
